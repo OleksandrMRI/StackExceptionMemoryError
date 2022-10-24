@@ -6,6 +6,6 @@ public class OutOfMemoryException {
         f(n);
     }
     private static void f(int n) {
-        f(n*2);
+        f(n+2);
     }
 }
